@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E39C16EC1C2B9DCE00EFB646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C16EB1C2B9DCE00EFB646 /* main.m */; };
+		E39C16EF1C2B9DCE00EFB646 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C16EE1C2B9DCE00EFB646 /* AppDelegate.m */; };
+		E39C16F21C2B9DCE00EFB646 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C16F11C2B9DCE00EFB646 /* ViewController.m */; };
+		E39C16F51C2B9DCE00EFB646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39C16F31C2B9DCE00EFB646 /* Main.storyboard */; };
+		E39C16F71C2B9DCE00EFB646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E39C16F61C2B9DCE00EFB646 /* Assets.xcassets */; };
+		E39C16FA1C2B9DCE00EFB646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39C16F81C2B9DCE00EFB646 /* LaunchScreen.storyboard */; };
+		E39C17051C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C17041C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.m */; };
+		E39C17101C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C170F1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E39C17011C2B9DCE00EFB646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E39C16DF1C2B9DCE00EFB646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E39C16E61C2B9DCE00EFB646;
+			remoteInfo = NJKTextFieldLimitDemo;
+		};
+		E39C170C1C2B9DCE00EFB646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E39C16DF1C2B9DCE00EFB646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E39C16E61C2B9DCE00EFB646;
+			remoteInfo = NJKTextFieldLimitDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E39C16E71C2B9DCE00EFB646 /* NJKTextFieldLimitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NJKTextFieldLimitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C16EB1C2B9DCE00EFB646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E39C16ED1C2B9DCE00EFB646 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E39C16EE1C2B9DCE00EFB646 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E39C16F01C2B9DCE00EFB646 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E39C16F11C2B9DCE00EFB646 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E39C16F41C2B9DCE00EFB646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E39C16F61C2B9DCE00EFB646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E39C16F91C2B9DCE00EFB646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E39C16FB1C2B9DCE00EFB646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C17001C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKTextFieldLimitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C17041C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKTextFieldLimitDemoTests.m; sourceTree = "<group>"; };
+		E39C17061C2B9DCE00EFB646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C170B1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKTextFieldLimitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E39C170F1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKTextFieldLimitDemoUITests.m; sourceTree = "<group>"; };
+		E39C17111C2B9DCE00EFB646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E39C16E41C2B9DCE00EFB646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C16FD1C2B9DCE00EFB646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C17081C2B9DCE00EFB646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E39C16DE1C2B9DCE00EFB646 = {
+			isa = PBXGroup;
+			children = (
+				E39C16E91C2B9DCE00EFB646 /* NJKTextFieldLimitDemo */,
+				E39C17031C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests */,
+				E39C170E1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests */,
+				E39C16E81C2B9DCE00EFB646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E39C16E81C2B9DCE00EFB646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E39C16E71C2B9DCE00EFB646 /* NJKTextFieldLimitDemo.app */,
+				E39C17001C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.xctest */,
+				E39C170B1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E39C16E91C2B9DCE00EFB646 /* NJKTextFieldLimitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E39C16ED1C2B9DCE00EFB646 /* AppDelegate.h */,
+				E39C16EE1C2B9DCE00EFB646 /* AppDelegate.m */,
+				E39C16F01C2B9DCE00EFB646 /* ViewController.h */,
+				E39C16F11C2B9DCE00EFB646 /* ViewController.m */,
+				E39C16F31C2B9DCE00EFB646 /* Main.storyboard */,
+				E39C16F61C2B9DCE00EFB646 /* Assets.xcassets */,
+				E39C16F81C2B9DCE00EFB646 /* LaunchScreen.storyboard */,
+				E39C16FB1C2B9DCE00EFB646 /* Info.plist */,
+				E39C16EA1C2B9DCE00EFB646 /* Supporting Files */,
+			);
+			path = NJKTextFieldLimitDemo;
+			sourceTree = "<group>";
+		};
+		E39C16EA1C2B9DCE00EFB646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E39C16EB1C2B9DCE00EFB646 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E39C17031C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E39C17041C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.m */,
+				E39C17061C2B9DCE00EFB646 /* Info.plist */,
+			);
+			path = NJKTextFieldLimitDemoTests;
+			sourceTree = "<group>";
+		};
+		E39C170E1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E39C170F1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m */,
+				E39C17111C2B9DCE00EFB646 /* Info.plist */,
+			);
+			path = NJKTextFieldLimitDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E39C16E61C2B9DCE00EFB646 /* NJKTextFieldLimitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39C17141C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemo" */;
+			buildPhases = (
+				E39C16E31C2B9DCE00EFB646 /* Sources */,
+				E39C16E41C2B9DCE00EFB646 /* Frameworks */,
+				E39C16E51C2B9DCE00EFB646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NJKTextFieldLimitDemo;
+			productName = NJKTextFieldLimitDemo;
+			productReference = E39C16E71C2B9DCE00EFB646 /* NJKTextFieldLimitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E39C16FF1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39C17171C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemoTests" */;
+			buildPhases = (
+				E39C16FC1C2B9DCE00EFB646 /* Sources */,
+				E39C16FD1C2B9DCE00EFB646 /* Frameworks */,
+				E39C16FE1C2B9DCE00EFB646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E39C17021C2B9DCE00EFB646 /* PBXTargetDependency */,
+			);
+			name = NJKTextFieldLimitDemoTests;
+			productName = NJKTextFieldLimitDemoTests;
+			productReference = E39C17001C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E39C170A1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E39C171A1C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemoUITests" */;
+			buildPhases = (
+				E39C17071C2B9DCE00EFB646 /* Sources */,
+				E39C17081C2B9DCE00EFB646 /* Frameworks */,
+				E39C17091C2B9DCE00EFB646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E39C170D1C2B9DCE00EFB646 /* PBXTargetDependency */,
+			);
+			name = NJKTextFieldLimitDemoUITests;
+			productName = NJKTextFieldLimitDemoUITests;
+			productReference = E39C170B1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E39C16DF1C2B9DCE00EFB646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = poco;
+				TargetAttributes = {
+					E39C16E61C2B9DCE00EFB646 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E39C16FF1C2B9DCE00EFB646 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E39C16E61C2B9DCE00EFB646;
+					};
+					E39C170A1C2B9DCE00EFB646 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E39C16E61C2B9DCE00EFB646;
+					};
+				};
+			};
+			buildConfigurationList = E39C16E21C2B9DCE00EFB646 /* Build configuration list for PBXProject "NJKTextFieldLimitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E39C16DE1C2B9DCE00EFB646;
+			productRefGroup = E39C16E81C2B9DCE00EFB646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E39C16E61C2B9DCE00EFB646 /* NJKTextFieldLimitDemo */,
+				E39C16FF1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests */,
+				E39C170A1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E39C16E51C2B9DCE00EFB646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C16FA1C2B9DCE00EFB646 /* LaunchScreen.storyboard in Resources */,
+				E39C16F71C2B9DCE00EFB646 /* Assets.xcassets in Resources */,
+				E39C16F51C2B9DCE00EFB646 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C16FE1C2B9DCE00EFB646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C17091C2B9DCE00EFB646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E39C16E31C2B9DCE00EFB646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C16F21C2B9DCE00EFB646 /* ViewController.m in Sources */,
+				E39C16EF1C2B9DCE00EFB646 /* AppDelegate.m in Sources */,
+				E39C16EC1C2B9DCE00EFB646 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C16FC1C2B9DCE00EFB646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C17051C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E39C17071C2B9DCE00EFB646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39C17101C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E39C17021C2B9DCE00EFB646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E39C16E61C2B9DCE00EFB646 /* NJKTextFieldLimitDemo */;
+			targetProxy = E39C17011C2B9DCE00EFB646 /* PBXContainerItemProxy */;
+		};
+		E39C170D1C2B9DCE00EFB646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E39C16E61C2B9DCE00EFB646 /* NJKTextFieldLimitDemo */;
+			targetProxy = E39C170C1C2B9DCE00EFB646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E39C16F31C2B9DCE00EFB646 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E39C16F41C2B9DCE00EFB646 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E39C16F81C2B9DCE00EFB646 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E39C16F91C2B9DCE00EFB646 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E39C17121C2B9DCE00EFB646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E39C17131C2B9DCE00EFB646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E39C17151C2B9DCE00EFB646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NJKTextFieldLimitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.poco.NJKTextFieldLimitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E39C17161C2B9DCE00EFB646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NJKTextFieldLimitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.poco.NJKTextFieldLimitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E39C17181C2B9DCE00EFB646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NJKTextFieldLimitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.poco.NJKTextFieldLimitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJKTextFieldLimitDemo.app/NJKTextFieldLimitDemo";
+			};
+			name = Debug;
+		};
+		E39C17191C2B9DCE00EFB646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NJKTextFieldLimitDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.poco.NJKTextFieldLimitDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NJKTextFieldLimitDemo.app/NJKTextFieldLimitDemo";
+			};
+			name = Release;
+		};
+		E39C171B1C2B9DCE00EFB646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NJKTextFieldLimitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.poco.NJKTextFieldLimitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NJKTextFieldLimitDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E39C171C1C2B9DCE00EFB646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NJKTextFieldLimitDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.poco.NJKTextFieldLimitDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NJKTextFieldLimitDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E39C16E21C2B9DCE00EFB646 /* Build configuration list for PBXProject "NJKTextFieldLimitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C17121C2B9DCE00EFB646 /* Debug */,
+				E39C17131C2B9DCE00EFB646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E39C17141C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C17151C2B9DCE00EFB646 /* Debug */,
+				E39C17161C2B9DCE00EFB646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E39C17171C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C17181C2B9DCE00EFB646 /* Debug */,
+				E39C17191C2B9DCE00EFB646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E39C171A1C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39C171B1C2B9DCE00EFB646 /* Debug */,
+				E39C171C1C2B9DCE00EFB646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E39C16DF1C2B9DCE00EFB646 /* Project object */;
+}
