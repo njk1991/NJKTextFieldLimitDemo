@@ -15,6 +15,7 @@
 		E39C16FA1C2B9DCE00EFB646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E39C16F81C2B9DCE00EFB646 /* LaunchScreen.storyboard */; };
 		E39C17051C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C17041C2B9DCE00EFB646 /* NJKTextFieldLimitDemoTests.m */; };
 		E39C17101C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C170F1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m */; };
+		E39C17221C2BDCBD00EFB646 /* UITextField+Limit.m in Sources */ = {isa = PBXBuildFile; fileRef = E39C17211C2BDCBD00EFB646 /* UITextField+Limit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E39C170B1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NJKTextFieldLimitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E39C170F1C2B9DCE00EFB646 /* NJKTextFieldLimitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKTextFieldLimitDemoUITests.m; sourceTree = "<group>"; };
 		E39C17111C2B9DCE00EFB646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E39C17201C2BDCBD00EFB646 /* UITextField+Limit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Limit.h"; sourceTree = "<group>"; };
+		E39C17211C2BDCBD00EFB646 /* UITextField+Limit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Limit.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E39C16EE1C2B9DCE00EFB646 /* AppDelegate.m */,
 				E39C16F01C2B9DCE00EFB646 /* ViewController.h */,
 				E39C16F11C2B9DCE00EFB646 /* ViewController.m */,
+				E39C17201C2BDCBD00EFB646 /* UITextField+Limit.h */,
+				E39C17211C2BDCBD00EFB646 /* UITextField+Limit.m */,
 				E39C16F31C2B9DCE00EFB646 /* Main.storyboard */,
 				E39C16F61C2B9DCE00EFB646 /* Assets.xcassets */,
 				E39C16F81C2B9DCE00EFB646 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				E39C16F21C2B9DCE00EFB646 /* ViewController.m in Sources */,
 				E39C16EF1C2B9DCE00EFB646 /* AppDelegate.m in Sources */,
 				E39C16EC1C2B9DCE00EFB646 /* main.m in Sources */,
+				E39C17221C2BDCBD00EFB646 /* UITextField+Limit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +502,7 @@
 				E39C17161C2B9DCE00EFB646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E39C17171C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				E39C17191C2B9DCE00EFB646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E39C171A1C2B9DCE00EFB646 /* Build configuration list for PBXNativeTarget "NJKTextFieldLimitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				E39C171C1C2B9DCE00EFB646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
